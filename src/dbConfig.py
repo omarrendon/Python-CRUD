@@ -13,10 +13,11 @@ class DBConfig:
     def config_data_base(self):
         try:
             connection=psycopg2.connect(# conexion db
-                user= 'agavesoft',
-                password = 'becarios2020',
-                host='3.237.20.227',
-                port='5432',
+                # SET YOUR DATABASE CONFIG
+                user= '*****',
+                password = '****',
+                host='****',
+                port='*****',
                 database='Omar'
             )
             print('Conexión exitosa')
